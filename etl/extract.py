@@ -4,7 +4,7 @@ import schedule
 import time
 from datetime import datetime
 import glob
-from config import config
+from etl_config import config
 import logging
 import pandas as pd
 

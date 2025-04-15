@@ -1,21 +1,22 @@
 # config.py
 db_config = {  # OLTP config 
-    'user': 'username',
+    'user': 'root',
     'password': 'passwd',
-    'host': 'ip',
-    'database': 'db_name'
+    'host': '127.0.0.1',
+    'database': 'db'
 }
 
 dw_config = {  # Data Warehouse config 
-    'user': 'username',
+    'user': 'root',
     'password': 'passwd',
     'host': '127.0.0.1',
-    'database': 'db_name'
+    'database': 'db'
 }
 
 staging_config = {  # Staging database config 
-    'user': 'username',
+    'user': 'root',
     'password': 'passwd',
     'host': '127.0.0.1',
-    'database': 'db_name'
+    'database': 'db'
 }
+
